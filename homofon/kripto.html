@@ -1,0 +1,58 @@
+<html>
+<head>
+	<link href="style.css" rel="stylesheet">
+	<title>KRIPTOGRAFI</title>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="judul">KRIPTOGRAFI</div>
+		<div id="tabel">
+			<table class="table">
+				<tr class="header_table"><td width="100px">HURUF</td><td width="700px"colspan=13>PILIHAN CHIPERTEXT</td><tr>
+				<tr><td>A</td><td>BU</td width="40px"><td>CP</td ><td width="40px">AV</td><td width="40px">AH</td><td width="40px">BT</td><td width="40px"> BS</td><td width="40px">CQ</td><tr>
+				<tr><td>B</td><td>AT</td><tr>
+				<tr><td>C</td><td>DL</td><td>BK</td><td>AU</td><tr>
+				<tr><td>D</td><td>BV</td><td>DY</td><td>DM</td><td>AI</td><tr>
+				<tr><td>E</td><td>DK</td><td>CO</td><td>AW</td><td>BL</td><td>AA</td><td>CR</td><td>BM</td><td>CS</td><td>AF</td><td>AG</td><td>BO</td><td>BN</td><td>BE</td><tr>
+				<tr><td>F</td><td>BW</td><td>CN</td><td>CM</td><tr>
+				<tr><td>G</td><td>DN</td><td>BJ</td><tr>
+				<tr><td>H</td><td>AS</td><td>CL</td><td>CK</td><tr>
+				<tr><td>I</td><td>DJ</td><td>BI</td><td>AX</td><td>CJ</td><td>AB</td><td>BP</td><td>CU</td><td>CT</td><tr>
+				<tr><td>J</td><td>BX</td><tr>
+				<tr><td>K</td><td>DI</td><tr>
+				<tr><td>L</td><td>AR</td><td>BH</td><td>CI</td><td>AJ</td><tr>
+				<tr><td>M</td><td>DH</td><td>BG</td><td>AY</td><tr>
+				<tr><td>N</td><td>BY</td><td>DG</td><td>DF</td><td>CH</td><td>AC</td><td>BR</td><td>DU</td><td>DT</td><tr>
+				<tr><td>O</td><td>DZ</td><td>BF</td><td>DX</td><td>AK</td><td>CG</td><td>BQ</td><td>DR</td><tr>
+				<tr><td>P</td><td>BZ</td><td>DE</td><td>AZ</td><tr>
+				<tr><td>Q</td><td>DD</td><tr>
+				<tr><td>R</td><td>AQ</td><td>DC</td><td>DQ</td><td>AL</td><td>CE</td><td>CF</td><td>CV</td><td>DS</td><tr>
+				<tr><td>S</td><td>AP</td><td>AN</td><td>AO</td><td>CD</td><td>DW</td><td>DV</td><tr>
+				<tr><td>T</td><td>CB</td><td>DB</td><td>DP</td><td>CC</td><td>AD</td><td>CY</td><td>CW</td><td>CX</td><td>AE</td><tr>
+				<tr><td>U</td><td>CA</td><td>AM</td><td>BA</td><tr>
+				<tr><td>V</td><td>BB</td><tr>
+				<tr><td>W</td><td>CZ</td><tr>
+				<tr><td>X</td><td>BD</td><tr>
+				<tr><td>Y</td><td>DO</td><td>DA</td><tr>
+				<tr><td>Z</td><td>BC</td><tr>
+			</table>
+		</div>
+		<div id="enkrip_box">
+			<form action="proses.php" method=POST>
+			<table>
+				<tr>
+					<td width="400px"><p><b>Masukkan Teks Yang akan di Enkripsi:</b></p>
+					<textarea type="text" name="plain" size="20" /></textarea>
+					<p>Chipertext: <br><span></span></p></td>
+			
+					<td><p><b>Masukkan Teks Yang akan di Dekripsi:</b></p>
+					<textarea type="text" name="chiper" size="20" ></textarea>
+					<p>Plaintext: <br><span></span></p></td>
+				</tr>
+			</table>
+				<input type="submit" value="proses"/>
+			</form>	
+		</div>
+	</div>
+</body>
+</html>
